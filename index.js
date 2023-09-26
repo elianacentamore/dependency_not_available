@@ -37,7 +37,7 @@ function checkDependencyAvailability(dependency) {
             if (response &&
                 response.data &&
                 response.data.response.numFound === 0) {
-                console.log(dependency;
+                console.log(dependency);
             }
         }).catch(function (error) {
             // handle error
